@@ -1,0 +1,14 @@
+{
+  "name": "node_scripts",
+  "version": "1.0.0",
+  "description": "Daily scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ifeanyi Oraelosi <ifeanyioraelosi@gmail.com> (http://gnerkus.github.io)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.11.0"
+  }
+}

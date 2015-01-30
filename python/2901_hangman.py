@@ -1,4 +1,9 @@
-def hangman(secretWord):
+#!/usr/bin/python
+
+import random
+
+class HangmanGame:
+  def start(self, secretWord):
     '''
     secretWord: string, the secret word to guess.
 
@@ -26,13 +31,11 @@ def hangman(secretWord):
     lettersGuessed = []
     availableLetters = string.ascii_lowercase
 
-    print "Loading word list from file..."
-    print "55900 words loaded."
     print "Welcome to the game, Hangman!"
-    print "I am thinking of a word that is " + len(secretWord) + " letters long."
+    print "I am thinking of a word that is " + str(len(secretWord)) + " letters long."
     print "-------------"
 
-    while not isWordGuessed(secretWord, lettersGuessed):
+    while not self.isWordGuessed(secretWord, lettersGuessed):
       if guessesLeft <= 0:
         print "Sorry, you ran out of guesses. The word was " + secretWord
         return False
@@ -40,24 +43,86 @@ def hangman(secretWord):
       print "You have " + str(guessesLeft) + " guesses left."
       print "Available letters: " + availableLetters
 
-      usersGuess = raw_input('Please guess a letter: ')
-      if userguess in lettersGuessed:
-        print "Oops! You've already guessed that letter: " + getGuessedWord(secretWord, lettersGuessed)
+      # Obtain the user's guess
+      userGuess = raw_input('Please guess a letter: ').lower()
+
+      if userGuess in lettersGuessed:
+        print "Oops! You've already guessed that letter: " + self.getGuessedWord(secretWord, lettersGuessed)
       else:
         if userGuess in secretWord:
           lettersGuessed.append(userGuess)
-          availableLetters = getAvailableLetters(lettersGuessed)
+          availableLetters = self.getAvailableLetters(lettersGuessed)
 
-          print "Good guess: " + getGuessedWord(secretWord, lettersGuessed)
+          print "Good guess: " + self.getGuessedWord(secretWord, lettersGuessed)
         else:
           lettersGuessed.append(userGuess)
-          availableLetters = getAvailableLetters(lettersGuessed)
+          availableLetters = self.getAvailableLetters(lettersGuessed)
           mistakesMade += 1
           guessesLeft -= 1
 
-          print "Oops! That letter is not in my word: " + getGuessedWord(secretWord, lettersGuessed)
+          print "Oops! That letter is not in my word: " + self.getGuessedWord(secretWord, lettersGuessed)
 
     print "Congratulations, you won!"
+
+  def getGuessedWord(self, secretWord, lettersGuessed):
+    '''
+    secretWord: string, the secret word in the game
+    lettersGuessed: list, a collection of the letters a user has already guessed
+
+    returns string
+
+    Displays the secretWord, showing what letters have been guessed and hiding others by replacing them with underscores.
+    '''
+    result = secretWord
+    for char in secretWord:
+      if char not in lettersGuessed:
+        result = result.replace(char, '_')
+
+    return result
+
+  def getAvailableLetters(self, lettersGuessed):
+    '''
+    lettersGuessed: list, a collection of the letters the user has already guessed
+
+    returns string
+
+    Displays what letters of the alphabet are yet to be used in the current session of the Hangman game.
+    '''
+    import string
+
+    alphabet = string.ascii_lowercase
+    for char in lettersGuessed:
+      alphabet = alphabet.replace(char, '')
+
+    return alphabet
+
+  def isWordGuessed(self, secretWord, lettersGuessed):
+    '''
+    secretWord: string, the secret word in the game
+    lettersGuessed: list, a collection of the letters the user has already guessed
+
+    returns boolean
+
+    Determines if the user has guessed the secret word i.e all the characters in the secretWord are in the lettersGuessed list.
+    '''
+    result = True
+    for char in secretWord:
+      if char not in lettersGuessed:
+        result = False
+
+    return result
+
+sampleWords = [
+  'anatagonistic',
+  'bacchanalia',
+  'cryptographic',
+  'dessication'
+]
+
+word = random.choice(sampleWords)
+
+game = HangmanGame()
+game.start(word)
 
 
 

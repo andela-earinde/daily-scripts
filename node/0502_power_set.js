@@ -22,11 +22,10 @@ function padBinary (binary, stringLength) {
   var len = binary.length;
   var rem = stringLength - binary.length;
 
-  var padding = [];
+  var padding = "";
   for (var i = 0; i < rem; i++) {
-    padding.push(0);
+    padding += "0";
   }
-  padding.join("");
 
   return padding + binary;
 }

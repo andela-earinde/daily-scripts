@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1366"
+   height="768"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="2602_wednesday_wallpaper.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.53033009"
+     inkscape:cx="683"
+     inkscape:cy="384.57144"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-bbox="true"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="743"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3755"
+       empspacing="4"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       spacingy="80px"
+       spacingx="80px" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-284.36218)">
+    <rect
+       style="fill:#3092d0;fill-opacity:1;stroke:none"
+       id="rect2985"
+       width="1366"
+       height="768"
+       x="0"
+       y="283.79074"
+       inkscape:export-filename="/home/gnerkus/projects/daily/art/2602_wednesday_wallpaper.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:47.48603821px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato Light"
+       x="155.06415"
+       y="660.901"
+       id="text3757"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0136714,0.98651299)"
+       inkscape:export-filename="/home/gnerkus/projects/daily/art/2602_wednesday_wallpaper.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3765"
+         style="font-size:47.48603821px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Lato;-inkscape-font-specification:Lato Light"
+         x="155.06415"
+         y="660.901">Create tests for task model of taskcuratr REST API.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="1153.6472"
+       y="437.09421"
+       id="text3761"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/gnerkus/projects/daily/art/2602_wednesday_wallpaper.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3763"
+         x="1153.6472"
+         y="437.09421"
+         style="font-size:144px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Lato;-inkscape-font-specification:Lato Ultra-Light">26</tspan></text>
+    <text
+       transform="scale(1.0136714,0.98651299)"
+       sodipodi:linespacing="125%"
+       id="text3769"
+       y="823.09521"
+       x="156.53619"
+       style="font-size:39.99999993px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato Ultra-Light"
+       xml:space="preserve"
+       inkscape:export-filename="/home/gnerkus/projects/daily/art/2602_wednesday_wallpaper.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3773"
+         x="156.53619"
+         y="823.09521">Write the tests.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato Ultra-Light"
+       x="153.38208"
+       y="904.242"
+       id="text3775"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0136714,0.98651299)"
+       inkscape:export-filename="/home/gnerkus/projects/daily/art/2602_wednesday_wallpaper.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3779"
+         x="153.38208"
+         y="904.242">Run the tests.</tspan></text>
+    <text
+       transform="scale(1.0136714,0.98651299)"
+       sodipodi:linespacing="125%"
+       id="text3781"
+       y="741.75574"
+       x="157.84207"
+       style="font-size:39.99999993px;font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato Ultra-Light"
+       xml:space="preserve"
+       inkscape:export-filename="/home/gnerkus/projects/daily/art/2602_wednesday_wallpaper.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3785"
+         x="157.84207"
+         y="741.75574">Create card in Trello.</tspan></text>
+  </g>
+</svg>
